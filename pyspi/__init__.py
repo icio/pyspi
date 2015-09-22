@@ -11,7 +11,7 @@ from tempfile import NamedTemporaryFile
 from textwrap import dedent
 
 
-__version__ = '1.0.0'
+__version__ = '1.0.1'
 
 
 class lazyproperty(object):  # NOQA
