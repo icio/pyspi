@@ -6,7 +6,8 @@ setup(
     name='pyspi',
     version=__version__,
     packages=['pyspi'],
-    author='Paul Scott <paul.scotto@gmail.com>',
+    author='Paul Scott',
+    author_email='paul.scotto@gmail.com',
     install_requires=['github3.py >0.9.0,<1.0.0'],
     entry_points={
         'console_scripts': [
