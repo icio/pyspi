@@ -95,7 +95,7 @@ class GithubPackage(object):
                 yield Asset(
                     url=url,
                     filename=os.path.basename(url),
-                    md5=self.extract_md5(asset.label)
+                    md5=self.extract_md5(asset.label or '')
                 )
 
     def publish(self, assets):
